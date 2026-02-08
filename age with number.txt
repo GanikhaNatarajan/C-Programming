@@ -1,0 +1,7 @@
+#include <stdio.h>
+int main(){
+    int Age;
+    scanf("%d",&Age);
+    printf("%d Age=",Age);
+    return 0;
+}
