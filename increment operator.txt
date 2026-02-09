@@ -1,0 +1,9 @@
+#include <stdio.h>
+int main() {
+    int n, pre ,post;
+    scanf("%d",&n);
+    pre= ++n;
+    post=n++;
+    printf("pre%d post%d",pre,post);
+    return 0;
+}
