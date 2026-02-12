@@ -1,0 +1,21 @@
+#include<stdio.h>
+int main()
+{
+    int percent,n,drain;
+    int total=0;
+    scanf("%d",&percent);
+    scanf("%d",&n);
+    for (int i=0;i<n;i++)
+    {
+        scanf("%d",&drain);
+        total+=drain;
+    }
+        int remaining=percent-total;
+        if (remaining<0)
+        {
+            remaining=0;
+        }
+        printf(" remaining battery:%d%%",remaining);
+
+    return 0;
+}
