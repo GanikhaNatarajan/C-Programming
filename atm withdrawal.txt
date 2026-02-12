@@ -1,0 +1,12 @@
+#include<stdio.h>
+int main() {
+    int account_type,balance,withdraw_amount;
+    scanf("%d,%d,%d",&account_type,&balance,&withdraw_amount);
+    if (withdraw_amount <=balance) {
+        printf("Transaction successfull");
+    }else {
+        printf("limit exceeded");
+    }
+
+    return 0;
+}
