@@ -1,0 +1,16 @@
+#include<stdio.h>
+int main() {
+    int n,amount;
+    int total=0;
+    scanf("%d",&n);
+    for (int i=0;i>n;i++) {
+        scanf("%d",&amount);
+        total+=amount++;
+        if (amount<10000) {
+            printf("\n,Approved");
+        }else {
+            printf("Limit exceeded");
+        }
+    }
+        return 0;
+    }

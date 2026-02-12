@@ -1,0 +1,18 @@
+#include<stdio.h>
+int main()
+{
+    int n,units;
+    int total=0;
+    int days=0;
+    scanf("%d",&n);
+    for(int i=0;i<n;i++) {
+        scanf("%d",&units);
+        total+=units;
+        if (units>100) {
+            days++;
+        }
+    }
+    printf("total  loss; %d\n",total );
+    printf(" high loss days; %d",days);
+    return 0;
+}
